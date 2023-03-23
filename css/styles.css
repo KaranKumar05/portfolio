@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   padding: 0.9em 3em;
-  height: 15vh;
+  height: 4em;
   justify-content: space-between;
   /* background-color: #191d2574; */
   background: rgb(0, 0, 0);
@@ -21,11 +21,11 @@ body {
 .title {
   color: white;
   font-size: 1.5em;
-  animation: slidetop 0.5s ease forwards;
+  animation: slidetop 1s ease forwards;
 }
 @keyframes slidetop {
   0% {
-    transform: translateY(200px);
+    transform: translateY(400px);
     opacity: 0;
   }
   100% {
@@ -46,11 +46,11 @@ body {
   font-size: 1.5em;
   font-weight: bolder;
   /* transition: .3s; */
-  animation: slidetop 0.5s ease forwards;
+  animation: slidetop 1s ease forwards;
 }
 @keyframes slidetop {
   0% {
-    transform: translateY(200px);
+    transform: translateY(400px);
     opacity: 0;
   }
   100% {
@@ -94,11 +94,11 @@ body {
   width: 100%;
   border-radius: 200px;
   border: 2px solid white;
-  animation: slideright 1s ease-in-out;
+  animation: slideright 1.5s ease-in-out;
 }
 @keyframes slideright {
   0% {
-    transform: translateX(-200px);
+    transform: translateX(-600px);
     opacity: 0;
   }
   100% {
@@ -108,11 +108,11 @@ body {
 }
 
 .home_content {
-  animation: slideleft 1s ease-in-out;
+  animation: slideleft 1.5s ease-in-out;
 }
 @keyframes slideleft {
   0% {
-    transform: translateX(200px);
+    transform: translateX(600px);
     opacity: 0;
   }
   100% {
@@ -196,7 +196,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90vh;
+    height: 28em;
   }
   .profile {
     width: 280px;
@@ -230,14 +230,15 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .header {
-    height: 10vh;
+    height: 4em;
   }
   .home_section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 140vh;
+    height: 48em;
+
   }
   .profile {
     width: 260px;
@@ -276,7 +277,7 @@ body {
     flex-direction: column;
     align-items: center;
     /* row-gap: 1em; */
-    height: 17vh;
+    height: 5.5em;
   }
   .navbar {
     /* margin-top: -80px; */
@@ -288,7 +289,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 150vh;
+    height: 50em;
   }
   .profile {
     width: 280px;
@@ -335,7 +336,7 @@ body {
     font-size: 1em;
   }
   .home_section {
-    height: 130vh;
+    height: 40em;
   }
   .profile {
     width: 250px;
